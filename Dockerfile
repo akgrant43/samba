@@ -1,5 +1,5 @@
-FROM debian:stretch
-MAINTAINER David Personette <dperson@gmail.com>
+FROM phusion/baseimage:latest
+MAINTAINER Alistair Grant <akgrant@gmail.com>
 
 # Install samba
 RUN export DEBIAN_FRONTEND='noninteractive' && \
